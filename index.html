@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Roboto+Slab:300,700,100,400' rel='stylesheet' type='text/css'>
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<!-- //js -->
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Eco Travel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- banner -->
+	<div class="banner-with-text">
+		<div class="container">
+<!-- header -->	
+		<div class="header">
+			<div class="header-top">
+				<input type="text" placeholder="Search" required=" ">
+			</div>
+			<div class="clearfix"> </div>
+			<div class="header-bottom">
+				<div class="header-bottom-left">
+					<a href="index.html">Eco<span>travel</span></a>
+				</div>
+				<div class="header-bottom-right">
+					<span class="menu">MENU</span>
+					<ul class="nav1">
+						<li class="cap"><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="events.html">EVENTS</a></li>
+						<li><a href="services.html">SERVICES</a></li>
+						<li><a href="gallery.html">GALLERIES</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+					<!-- script for menu -->
+						<script> 
+							$( "span.menu" ).click(function() {
+							$( "ul.nav1" ).slideToggle( 300, function() {
+							 // Animation complete.
+							});
+							});
+						</script>
+					<!-- //script for menu -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>	
+<!-- //header -->
+<!-- Slider-starts-Here -->
+				<script src="js/responsiveslides.min.js"></script>
+				 <script>
+				    // You can also use "$(window).load(function() {"
+				    $(function () {
+				      // Slideshow 4
+				      $("#slider3").responsiveSlides({
+				        auto: true,
+				        pager: true,
+				        nav: false,
+				        speed: 500,
+				        namespace: "callbacks",
+				        before: function () {
+				          $('.events').append("<li>before event fired.</li>");
+				        },
+				        after: function () {
+				          $('.events').append("<li>after event fired.</li>");
+				        }
+				      });
+				
+				    });
+				  </script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container wow fadeInUp" data-wow-delay="0.5s">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="banner">	
+							<div class="jumbotron banner-info">
+								<h1>城市音符</h1>
+								<p>夜色无边\  城市的街灯在夜空中起舞\  时间不变\   感觉依然\  那些飘散在夜空里的音符\
+									你的\  我的\  他的\  都是一首首\  难以忘怀的老歌…</p>
+								<p><a class="btn btn-primary btn-lg" href="single.html" role="button">READ MORE</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="banner1">	
+							<div class="jumbotron banner-info">
+								<h1>飘在城市</h1>
+								<p>腐蚀的灵魂\  飘浮在无可亵渎的繁华中\  黯然失色\  孤独的无所依从\
+									糜烂的躯壳\  沉陷于颓废自卑的城市里\  颠沛流离\  满腹的悲凉冷寂  </p>
+								<p><a class="btn btn-primary btn-lg" href="single.html" role="button">READ MORE</a></p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="banner2">	
+							<div class="jumbotron banner-info">
+								<h1>游荡</h1>
+								<p>我游荡在城市的街角\  看霓虹把天擦亮\  我游荡在梦中的某个角落\  看成长撕扯生命的骨髓\
+									我游荡在漆黑的天边\    看黑暗吞噬新鲜的血液\    我游荡的灵魂徘徊在城市的霓虹下\
+									 流逝的时间一点点的撕咬我的经脉\     游荡在生命的旅途\     在一个个游荡的路口滑入下个迷宫  </p>
+								<p><a class="btn btn-primary btn-lg" href="single.html" role="button">READ MORE</a></p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+	</div>
+	</div>
+<!-- //banner -->
+<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
+<!-- banner-bottom -->
+	<div class="banner-bdy">
+		<div class="container">
+	<div class="banner-bottom" id="events">
+			<div class="banner-bottom-grids">
+				<div class="col-md-4 banner-bottom-grid">
+					<img src="images/6.jpg" alt=" "/>
+					<div class="more">
+						<a href="single.html">More</a>
+					</div>
+				</div>
+				<div class="col-md-4 banner-bottom-grid">
+					<img src="images/7.jpg" alt=" "/>
+					<div class="more">
+						<a href="single.html">More</a>
+					</div>
+				</div>
+				<div class="col-md-4 banner-bottom-grid">
+					<img src="images/5.jpg" alt=" "/>
+					<div class="more">
+						<a href="single.html">More</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="features">
+				<div class="col-md-9 features-left">
+					<h3> 牧笛的旋律 </h3>
+					<div class="features-left-grids">
+						<div class="col-md-4 features-left-grid">
+							<a href="single.html"><img src="images/1.jpg" alt=" " /></a>
+						</div>
+						<div class="col-md-8 jumbotron features-left-grid1">
+							<h4><a href="single.html">迷乱的城市</a></h4>
+							<p>缘来缘去,痴情人情断何处？浮浮沉沉人生路，跌跌撞撞入迷途。清风几许，世人只为无情苦，
+								岂知情海更难渡。不若归去，悠悠白云风荷竹。恨走他乡天涯路，梦魂天地伊人予。
+								奈何腰间流苏，某年某月某地遇，心梦停驻，名利红尘谁知足。往事已故，芳华不再人亦去。
+								空留遗恨问苍天，几多苦！</p>
+							<p><a class="btn read btn-primary btn-lg" href="single.html" role="button">Read More</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="features-left-grids">
+						<div class="col-md-4 features-left-grid">
+							<a href="single.html"><img src="images/3.jpg" alt=" " /></a>
+						</div>
+						<div class="col-md-8 jumbotron features-left-grid1">
+							<h4><a href="single.html">离别的城市</a></h4>
+							<p>昨夜的冷风\拂动着我的内心\使我彷徨\使我动摇\难道是秋天到了\不，我不相信\
+								难道是真的要走了\是，我想到了\我踏上了故里的班车\望着车窗外的城市\
+								好像一切是那么陌生\我哭了\好像一切又不陌生\再见了这座城市</p>
+							<p><a class="btn read btn-primary btn-lg" href="single.html" role="button">Read More</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-3 features-right">
+					<div class="features-rgt">
+						<h3>活动预告</h3>
+						<div class="features-rgt-grid">
+							<div class="features-rgt-grid-left">
+								<h4><a href="single.html">徒步旅行</a></h4>
+								<p>读万卷书不如行万里路</p>
+								<a href="single.html">More Info</a>
+							</div>
+							<div class="features-rgt-grid-right">
+								<p>15th May</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="features-rgt-grid">
+							<div class="features-rgt-grid-left">
+								<h4><a href="single.html">野外生存训练</a></h4>
+								<p>学习独立适应外围环境</p>
+								<a href="single.html">More Info</a>
+							</div>
+							<div class="features-rgt-grid-right">
+								<p>15th May</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="features-rgt-grid">
+							<div class="features-rgt-grid-left">
+								<h4><a href="single.html">城市来客</a></h4>
+								<p>刚来到城市的懵懂青年</p>
+								<a href="single.html">More Info</a>
+							</div>
+							<div class="features-rgt-grid-right">
+								<p>15th May</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="all-events">
+							<a href="single.html">All Events</a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+	</div>
+<!-- //banner-bottom -->
+<!-- slider -->
+	<div class="sliderfig">
+		<ul id="flexiselDemo1">			
+			<li>
+				<div class="sliderfig-grids">
+					<div class="sliderfig-grid">
+						<img src="images/4.jpg" alt=" " />
+						<div class="slider-text">
+							<p>Et Quas Molestias Officia</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="sliderfig-grids">
+					<div class="sliderfig-grid">
+						<img src="images/5.jpg" alt=" " />
+						<div class="slider-text">
+							<p>Et Quas Molestias Officia</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="sliderfig-grids">
+					<div class="sliderfig-grid">
+						<img src="images/6.jpg" alt=" " />
+						<div class="slider-text">
+							<p>Et Quas Molestias Officia</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="sliderfig-grids">
+					<div class="sliderfig-grid">
+						<img src="images/7.jpg" alt=" " />
+						<div class="slider-text">
+							<p>Et Quas Molestias Officia</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			</ul>
+			<script type="text/javascript">
+							$(window).load(function() {
+								$("#flexiselDemo1").flexisel({
+									visibleItems: 4,
+									animationSpeed: 1000,
+									autoPlay: true,
+									autoPlaySpeed: 3000,    		
+									pauseOnHover: true,
+									enableResponsiveBreakpoints: true,
+									responsiveBreakpoints: { 
+										portrait: { 
+											changePoint:480,
+											visibleItems: 2
+										}, 
+										landscape: { 
+											changePoint:640,
+											visibleItems:3
+										},
+										tablet: { 
+											changePoint:768,
+											visibleItems: 3
+										}
+									}
+								});
+								
+							});
+					</script>
+					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	</div>
+	</div>
+	</div>
+<!-- //slider -->
+<!-- footer -->
+	<div class="footer-top">
+	<div class="container">
+		<div class="footer-top-grids">
+			<div class="col-md-4 footer-top-grid">
+				<h3>生态旅游</h3>
+				<p>随身东西南北，九州出走它说/无路靠它指引。三山五岳标本。/天下之大任我奔，五湖四海我畅游，
+					/不能忘家回归。此物最为知心 </p>
+				<div class="read1">
+					<a href="single.html">Read More</a>
+				</div>
+			</div>
+			<div class="col-md-4 footer-top-grid">
+				<h3>联系方式</h3>
+				<div class="twi-txt">
+					<div class="twi">
+						<a href="#" class="twitter"></a>
+					</div>
+					<div class="twi-text">
+						<p><a href="#">Follow Us On Twitter</a></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="twi-txt1">
+					<div class="twi">
+						<a href="#" class="flickr"> </a>
+					</div>
+					<div class="twi-text">
+						<p><a href="#">Check Us Out On Flickr</a></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="twi-txt1">
+					<div class="twi">
+						<a href="#" class="facebook"> </a>
+					</div>
+					<div class="twi-text">
+						<p><a href="#">Become a Fan On Facebook</a></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="col-md-4 footer-top-grid">
+				<h3>扩展功能</h3>
+				<ul class="last">
+					<li><a href="#">主题公园</a></li>
+					<li><a href="#">西藏之行</a></li>
+					<li><a href="#">江南小村</a></li>
+					<li><a href="#">休闲度假</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+		<div class="footer">
+			<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+		</div>
+	</div>
+<!-- //footer -->	
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
